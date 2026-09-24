@@ -1,0 +1,127 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background: #fff8f5;
+    color: #282124;
+}
+
+
+
+.barra-barber {
+    width: min(1180px, calc(100% - 2rem));
+    margin: 1rem auto 0;
+    background: #321f2a;
+    padding: 0.75rem 1.25rem;
+    border-radius: 14px;
+    box-shadow: 0 12px 28px rgba(50, 31, 42, 0.15);
+}
+
+
+
+.logo {
+    color: #ffd9a8;
+    font-size: 1.45rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.menu {
+    gap: 0.25rem;
+}
+
+.menu .nav-link {
+    color: #f8e9e8;
+    padding: 0.65rem 0.75rem;
+}
+
+.menu .nav-link:hover,
+.menu .nav-link.active {
+    color: #ffd9a8;
+}
+
+
+
+.buscador {
+    min-width: min(100%, 250px);
+}
+
+.buscador .form-control {
+    border: 0;
+    min-height: 42px;
+}
+
+.btn-search {
+    background: #e48b68;
+    color: white;
+    border-color: #e48b68;
+}
+
+
+
+.usuarios {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.usuarios button {
+    white-space: nowrap;
+}
+
+
+
+.contenido {
+    max-width: 1180px;
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.contenido h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(2.3rem, 5vw, 4.5rem);
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #321f2a;
+}
+
+.eyebrow {
+    color: #cf6d52;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.18em;
+}
+
+
+
+.barber-pro {
+    background: linear-gradient(120deg, #c95b7e, #e48b68);
+    width: 100%;
+    min-height: 310px;
+    padding: clamp(2rem, 6vw, 4.5rem);
+    border-radius: 18px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.barber-pro h2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.barber-pro p {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 850px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 991.98px) {
+    .menu {
+        padding-top: 1rem;
+    }
+
+    .usuarios {
+        justify-content: flex-start;
+    }
+}
